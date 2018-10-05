@@ -1,0 +1,9 @@
+.content {
+  width: 100%;
+  padding: 270px 0 210px;
+
+  &._bg_default {
+    background: url('~/src/images/background.png') center no-repeat;
+    background-size: cover;
+  }
+}
