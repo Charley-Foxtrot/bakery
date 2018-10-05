@@ -1,0 +1,27 @@
+.h1 {
+  font-size: 92px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 0 #3d3029;
+  text-align: center;
+  margin: 0;
+
+  &._mb_1 {
+    margin-bottom: 140px;
+  }
+}
+
+.accented_text {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #fff;
+  text-shadow: 0 1px 0 #3d3029;
+  letter-spacing: 2.4px;
+  text-align: center;
+  margin: 0;
+
+  &._mb_1 {
+    margin-bottom: 69px;
+  }
+}

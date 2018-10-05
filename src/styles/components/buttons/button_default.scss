@@ -1,0 +1,25 @@
+$bg: rgba(86, 83, 76, 0.3);
+
+.button_default {
+  @include transition();
+
+  font-size: 14px;
+  line-height: 1.7;
+  color: #fff;
+  display: inline-block;
+  border: 1px dashed #9e9c93;
+  background-color: $bg;
+  text-transform: uppercase;
+  letter-spacing: 4.2px;
+  padding: 15px 45px;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background: lighten($bg, 50%);
+  }
+
+  &:active {
+    background: $bg;
+  }
+}
